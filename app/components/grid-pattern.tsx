@@ -1,61 +1,66 @@
-"use client"
+"use client";
 
-import { useEffect, useRef } from "react"
+import { useEffect, useRef } from "react";
 
 interface GridPatternProps {
-  className?: string
+  className?: string;
 }
 
 const GridPattern = ({ className = "" }: GridPatternProps) => {
-  const canvasRef = useRef<HTMLCanvasElement>(null)
+  const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
-    const canvas = canvasRef.current
-    if (!canvas) return
+    const canvas = canvasRef.current;
+    if (!canvas) return;
 
-    const ctx = canvas.getContext("2d")
-    if (!ctx) return
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
 
     const resizeCanvas = () => {
-      const { width, height } = canvas.getBoundingClientRect()
-      const dpr = window.devicePixelRatio || 1
+      const { width, height } = canvas.getBoundingClientRect();
+      const dpr = window.devicePixelRatio || 1;
 
-      canvas.width = width * dpr
-      canvas.height = height * dpr
+      canvas.width = width * dpr;
+      canvas.height = height * dpr;
 
-      ctx.scale(dpr, dpr)
+      ctx.scale(dpr, dpr);
 
-      drawGrid()
-    }
+      drawGrid();
+    };
 
     const drawGrid = () => {
-      if (!ctx) return
+      if (!ctx) return;
 
-      ctx.clearRect(0, 0, canvas.width, canvas.height)
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      const cellSize = 30
-      const dotSize = 1
+      const cellSize = 30;
+      const dotSize = 1;
 
-      ctx.fillStyle = "rgba(138, 43, 226, 0.15)"
+      ctx.fillStyle = "rgba(59, 130, 246, 0.15)";
 
       for (let x = 0; x < canvas.width; x += cellSize) {
         for (let y = 0; y < canvas.height; y += cellSize) {
-          ctx.beginPath()
-          ctx.arc(x, y, dotSize, 0, Math.PI * 2)
-          ctx.fill()
+          ctx.beginPath();
+          ctx.arc(x, y, dotSize, 0, Math.PI * 2);
+          ctx.fill();
         }
       }
-    }
+    };
 
-    resizeCanvas()
-    window.addEventListener("resize", resizeCanvas)
+    resizeCanvas();
+    window.addEventListener("resize", resizeCanvas);
 
     return () => {
-      window.removeEventListener("resize", resizeCanvas)
-    }
-  }, [])
+      window.removeEventListener("resize", resizeCanvas);
+    };
+  }, []);
 
-  return <canvas ref={canvasRef} className={`absolute inset-0 z-0 opacity-30 ${className}`} />
-}
+  return (
+    <canvas
+      ref={canvasRef}
+      className={`absolute inset-0 z-0 opacity-30 ${className}`}
+    />
+  );
+};
 
-export default GridPattern
+export default GridPattern;

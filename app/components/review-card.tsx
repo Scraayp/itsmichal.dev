@@ -1,17 +1,16 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Card, CardContent, CardHeader } from "@/components/ui/card"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Quote } from "lucide-react"
+import { motion } from "framer-motion";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Quote } from "lucide-react";
 
 interface ReviewCardProps {
   review: {
-    name: string
-    company: string
-    image: string
-    review: string
-  }
+    name: string;
+    image: string;
+    review: string;
+  };
 }
 
 const ReviewCard = ({ review }: ReviewCardProps) => {
@@ -26,12 +25,14 @@ const ReviewCard = ({ review }: ReviewCardProps) => {
         <CardHeader className="pb-2">
           <div className="flex items-center gap-4">
             <Avatar className="h-12 w-12">
-              <AvatarImage src={review.image || "/placeholder.svg"} alt={review.name} />
+              <AvatarImage
+                src={review.image || "/placeholder.svg"}
+                alt={review.name}
+              />
               <AvatarFallback>{review.name.charAt(0)}</AvatarFallback>
             </Avatar>
             <div>
               <h4 className="font-semibold">{review.name}</h4>
-              <p className="text-sm text-white/70">{review.company}</p>
             </div>
           </div>
         </CardHeader>
@@ -42,7 +43,7 @@ const ReviewCard = ({ review }: ReviewCardProps) => {
         </CardContent>
       </Card>
     </motion.div>
-  )
-}
+  );
+};
 
-export default ReviewCard
+export default ReviewCard;

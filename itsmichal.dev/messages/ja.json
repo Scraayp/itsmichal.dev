@@ -1,0 +1,34 @@
+{
+  "site": {
+    "name": "Buzz.AI",
+    "title": "人工知能で未来を構築する",
+    "description": "AI開発者 & 機械学習スペシャリスト",
+    "tagline": "ビジネスを変革し、ユーザー体験を向上させるインテリジェントなソリューションを作成しています。カスタムAI開発、機械学習、フルスタック実装を専門としています。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "services": "サービス",
+    "projects": "プロジェクト",
+    "experience": "経験",
+    "pricing": "料金",
+    "reviews": "レビュー",
+    "contact": "お問い合わせ",
+    "letsTalk": "お話しましょう",
+    "viewMyWork": "作品を見る",
+    "contactMe": "お問い合わせ",
+    "scrollDown": "下にスクロール"
+  },
+  "footer": {
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "copyright": "© {year} Buzz.AI. All rights reserved."
+  },
+  "language": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "select": "言語を選択"
+  }
+}

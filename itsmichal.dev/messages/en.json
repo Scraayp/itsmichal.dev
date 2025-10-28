@@ -1,0 +1,200 @@
+{
+  "site": {
+    "name": "Buzz.AI",
+    "title": "Professional AI Web Development",
+    "description": "AI Developer & Machine Learning Specialist",
+    "tagline": "I create intelligent solutions that transform businesses and enhance user experiences. Specializing in custom AI development, machine learning, and full-stack implementation."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "experience": "Experience",
+    "pricing": "Pricing",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "letsTalk": "Let's Talk",
+    "viewMyWork": "View My Work",
+    "contactMe": "Contact Me",
+    "scrollDown": "Scroll Down"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© {year} Buzz.AI. All rights reserved."
+  },
+  "services": {
+    "title": "Transforming Ideas into Intelligent Solutions",
+    "description": "I offer a range of specialized services focused on artificial intelligence and modern web development to help businesses innovate and grow.",
+    "aiDevelopment": {
+      "title": "AI Development",
+      "description": "Custom AI solutions tailored to your business needs with state-of-the-art models and algorithms"
+    },
+    "machineLearning": {
+      "title": "Machine Learning",
+      "description": "Predictive models that grow smarter over time using your data to deliver actionable insights"
+    },
+    "dataAnalysis": {
+      "title": "Data Analysis",
+      "description": "Transform your raw data into actionable insights with advanced visualization techniques"
+    },
+    "chatbotDevelopment": {
+      "title": "Chatbot Development",
+      "description": "Intelligent conversational interfaces that provide natural, helpful interactions for your users"
+    },
+    "fullStackDevelopment": {
+      "title": "Full-Stack Development",
+      "description": "End-to-end web and mobile solutions built with modern frameworks and best practices"
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "description": "Explore some of my recent work showcasing AI integration, machine learning implementation, and full-stack development.",
+    "viewDetails": "View Details",
+    "viewLiveProject": "View Live Project",
+    "overview": "Overview",
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "results": "Results",
+    "aiContentGenerator": {
+      "title": "AI Content Generator",
+      "description": "A powerful AI tool that generates high-quality content for blogs, social media, and more.",
+      "fullDescription": "This AI-powered content generator uses advanced language models to create engaging, SEO-optimized content for various platforms. The tool features customizable tone settings, keyword optimization, and multiple export options."
+    },
+    "virtualAssistant": {
+      "title": "Virtual Assistant Dashboard",
+      "description": "An intuitive dashboard for managing AI virtual assistants and automating workflows.",
+      "fullDescription": "This comprehensive dashboard allows users to create, train, and deploy virtual assistants for customer service, lead generation, and internal processes. The system includes analytics, conversation history, and integration capabilities."
+    },
+    "predictiveAnalytics": {
+      "title": "Predictive Analytics Platform",
+      "description": "A data visualization and prediction platform for business intelligence.",
+      "fullDescription": "This platform transforms complex business data into actionable insights through interactive visualizations and AI-powered predictions. Features include customizable dashboards, automated reporting, and anomaly detection."
+    },
+    "documentProcessor": {
+      "title": "Smart Document Processor",
+      "description": "An AI system that extracts, categorizes, and summarizes information from documents.",
+      "fullDescription": "This document processing system uses computer vision and natural language processing to automatically extract key information from various document types, including invoices, contracts, and reports. The system categorizes information and generates concise summaries."
+    },
+    "sentimentAnalysis": {
+      "title": "Sentiment Analysis Tool",
+      "description": "A real-time sentiment analysis tool for social media and customer feedback.",
+      "fullDescription": "This tool monitors social media platforms and customer feedback channels to provide real-time sentiment analysis. Features include trend detection, alert systems for negative sentiment spikes, and detailed reporting."
+    },
+    "recommendationEngine": {
+      "title": "AI-Powered Recommendation Engine",
+      "description": "A sophisticated recommendation system for e-commerce and content platforms.",
+      "fullDescription": "This recommendation engine uses collaborative filtering, content-based analysis, and contextual information to deliver highly relevant product or content recommendations. The system continuously learns from user interactions to improve suggestions."
+    }
+  },
+  "experience": {
+    "title": "Professional Journey",
+    "description": "A timeline of my career progression and key roles in the technology and AI space.",
+    "seniorAiEngineer": {
+      "title": "Senior AI Engineer",
+      "company": "TechFusion AI",
+      "period": "2021 - Present",
+      "description": "Lead the development of AI solutions for enterprise clients. Designed and implemented custom machine learning models and natural language processing systems."
+    },
+    "mlSpecialist": {
+      "title": "Machine Learning Specialist",
+      "company": "DataVision Inc.",
+      "period": "2018 - 2021",
+      "description": "Developed predictive analytics solutions and recommendation systems. Worked with large datasets to train and optimize machine learning models."
+    },
+    "fullStackDeveloper": {
+      "title": "Full-Stack Developer",
+      "company": "WebSphere Solutions",
+      "period": "2016 - 2018",
+      "description": "Built responsive web applications and RESTful APIs. Implemented front-end interfaces and back-end systems for various client projects."
+    },
+    "softwareIntern": {
+      "title": "Software Engineering Intern",
+      "company": "InnoTech Labs",
+      "period": "2015 - 2016",
+      "description": "Assisted in the development of mobile applications and web services. Gained experience in agile development methodologies and software testing."
+    }
+  },
+  "pricing": {
+    "title": "Investment Plans",
+    "description": "Transparent pricing options designed to accommodate different project scopes and requirements.",
+    "getStarted": "Get Started",
+    "basic": {
+      "title": "Basic",
+      "description": "Perfect for small projects and startups",
+      "features": {
+        "design": "Custom AI solution design",
+        "implementation": "Basic implementation",
+        "support": "1 month of support",
+        "documentation": "Documentation",
+        "revisions": "1 revision round"
+      }
+    },
+    "professional": {
+      "title": "Professional",
+      "description": "Ideal for growing businesses",
+      "features": {
+        "design": "Advanced AI solution design",
+        "implementation": "Full implementation",
+        "support": "3 months of support",
+        "documentation": "Comprehensive documentation",
+        "revisions": "3 revision rounds",
+        "optimization": "Performance optimization",
+        "training": "Basic training session"
+      }
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "description": "For complex enterprise needs",
+      "features": {
+        "design": "Enterprise-grade AI solution",
+        "implementation": "Complete implementation",
+        "support": "6 months of support",
+        "documentation": "Extensive documentation",
+        "revisions": "Unlimited revisions",
+        "optimization": "Advanced performance optimization",
+        "training": "Multiple training sessions",
+        "contact": "Dedicated support contact",
+        "integrations": "Custom integrations"
+      }
+    }
+  },
+  "reviews": {
+    "title": "Client Feedback",
+    "description": "Hear what clients have to say about their experience working with me.",
+    "sarahJohnson": {
+      "name": "Sarah Johnson",
+      "company": "TechStart Inc.",
+      "review": "Working with this freelancer was an absolute pleasure. They delivered our AI solution ahead of schedule and exceeded our expectations in terms of functionality and performance."
+    },
+    "michaelChen": {
+      "name": "Michael Chen",
+      "company": "DataFlow Systems",
+      "review": "The custom recommendation engine they built for our e-commerce platform increased our conversion rates by 35%. Their expertise in AI and machine learning is truly impressive."
+    },
+    "emilyRodriguez": {
+      "name": "Emily Rodriguez",
+      "company": "InnovateCorp",
+      "review": "Their ability to translate complex technical concepts into practical business solutions is remarkable. The predictive analytics dashboard they created has become an essential tool for our decision-making process."
+    },
+    "davidKim": {
+      "name": "David Kim",
+      "company": "NextGen Retail",
+      "review": "We've worked with many developers, but none have matched the combination of technical skill and business understanding that this freelancer brings to the table. Highly recommended!"
+    }
+  },
+  "contact": {
+    "title": "Let's Work Together",
+    "description": "Have a project in mind? Reach out through any of these channels and I'll get back to you promptly.",
+    "email": "Email",
+    "discord": "Discord"
+  },
+  "language": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "select": "Select language"
+  }
+}

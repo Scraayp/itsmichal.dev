@@ -1,0 +1,218 @@
+{
+  "site": {
+    "name": "Buzz.AI",
+    "title": "Construyendo el Futuro con Inteligencia Artificial",
+    "description": "Desarrollador de IA y Especialista en Machine Learning",
+    "tagline": "Creo soluciones inteligentes que transforman negocios y mejoran experiencias de usuario. Especializado en desarrollo personalizado de IA, machine learning e implementación full-stack."
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "pricing": "Precios",
+    "reviews": "Reseñas",
+    "contact": "Contacto",
+    "letsTalk": "Hablemos",
+    "viewMyWork": "Ver mi trabajo",
+    "contactMe": "Contáctame",
+    "scrollDown": "Desplázate hacia abajo"
+  },
+  "footer": {
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "copyright": "© {year} Buzz.AI. Todos los derechos reservados."
+  },
+  "services": {
+    "title": "Transformando Ideas en Soluciones Inteligentes",
+    "description": "Ofrezco una gama de servicios especializados centrados en inteligencia artificial y desarrollo web moderno para ayudar a las empresas a innovar y crecer.",
+    "aiDevelopment": {
+      "title": "Desarrollo de IA",
+      "description": "Soluciones de IA personalizadas adaptadas a las necesidades de tu negocio con modelos y algoritmos de vanguardia"
+    },
+    "machineLearning": {
+      "title": "Machine Learning",
+      "description": "Modelos predictivos que se vuelven más inteligentes con el tiempo utilizando tus datos para ofrecer información procesable"
+    },
+    "dataAnalysis": {
+      "title": "Análisis de Datos",
+      "description": "Transforma tus datos brutos en información procesable con técnicas avanzadas de visualización"
+    },
+    "chatbotDevelopment": {
+      "title": "Desarrollo de Chatbots",
+      "description": "Interfaces conversacionales inteligentes que proporcionan interacciones naturales y útiles para tus usuarios"
+    },
+    "fullStackDevelopment": {
+      "title": "Desarrollo Full-Stack",
+      "description": "Soluciones web y móviles de extremo a extremo construidas con frameworks modernos y mejores prácticas"
+    }
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "description": "Explora algunos de mis trabajos recientes que muestran integración de IA, implementación de machine learning y desarrollo full-stack.",
+    "viewDetails": "Ver Detalles",
+    "viewLiveProject": "Ver Proyecto en Vivo",
+    "overview": "Descripción General",
+    "challenge": "Desafío",
+    "solution": "Solución",
+    "results": "Resultados",
+    "aiContentGenerator": {
+      "title": "Generador de Contenido IA",
+      "description": "Una potente herramienta de IA que genera contenido de alta calidad para blogs, redes sociales y más.",
+      "fullDescription": "Este generador de contenido impulsado por IA utiliza modelos de lenguaje avanzados para crear contenido atractivo y optimizado para SEO para diversas plataformas. La herramienta incluye configuraciones de tono personalizables, optimización de palabras clave y múltiples opciones de exportación.",
+      "challenge": "Crear una interfaz fácil de usar que haga que la generación de contenido con IA sea accesible para usuarios no técnicos mientras se mantiene una alta calidad de salida.",
+      "solution": "Implementamos una interfaz de asistente paso a paso con vistas previas en tiempo real y controles simples para ajustar los parámetros de contenido.",
+      "results": "Aumentó la eficiencia de producción de contenido en un 300% para los clientes, con un 95% reportando satisfacción con la calidad del contenido generado."
+    },
+    "virtualAssistant": {
+      "title": "Panel de Asistente Virtual",
+      "description": "Un panel intuitivo para gestionar asistentes virtuales de IA y automatizar flujos de trabajo.",
+      "fullDescription": "Este panel integral permite a los usuarios crear, entrenar e implementar asistentes virtuales para servicio al cliente, generación de leads y procesos internos. El sistema incluye análisis, historial de conversaciones y capacidades de integración.",
+      "challenge": "Construir un sistema que pudiera manejar múltiples asistentes virtuales simultáneamente mientras proporciona análisis detallados y mantiene el rendimiento.",
+      "solution": "Desarrollamos una arquitectura de microservicios con servicios dedicados para cada función del asistente, combinada con una canalización de análisis en tiempo real.",
+      "results": "Ayudamos a los clientes a reducir los costos de servicio al cliente en un 40% mientras mejoraban los tiempos de respuesta en un 80%."
+    },
+    "predictiveAnalytics": {
+      "title": "Plataforma de Análisis Predictivo",
+      "description": "Una plataforma de visualización de datos y predicción para inteligencia empresarial.",
+      "fullDescription": "Esta plataforma transforma datos empresariales complejos en información procesable a través de visualizaciones interactivas y predicciones impulsadas por IA. Las características incluyen paneles personalizables, informes automatizados y detección de anomalías.",
+      "challenge": "Crear modelos de predicción precisos que pudieran funcionar con conjuntos de datos limitados o inconsistentes de varios dominios empresariales.",
+      "solution": "Implementamos técnicas de aprendizaje conjunto y aprendizaje por transferencia para maximizar la precisión de la predicción incluso con conjuntos de datos más pequeños.",
+      "results": "Ayudamos a un cliente minorista a aumentar la eficiencia del inventario en un 25% y reducir las roturas de stock en un 30% a través de una previsión precisa de la demanda."
+    },
+    "documentProcessor": {
+      "title": "Procesador Inteligente de Documentos",
+      "description": "Un sistema de IA que extrae, categoriza y resume información de documentos.",
+      "fullDescription": "Este sistema de procesamiento de documentos utiliza visión por computadora y procesamiento de lenguaje natural para extraer automáticamente información clave de varios tipos de documentos, incluyendo facturas, contratos e informes. El sistema categoriza la información y genera resúmenes concisos.",
+      "challenge": "Manejar diversos formatos y diseños de documentos mientras se mantiene una alta precisión en la extracción de información.",
+      "solution": "Desarrollamos un enfoque híbrido que combina la coincidencia de plantillas para documentos comunes con un sistema de IA flexible para manejar formatos desconocidos.",
+      "results": "Redujimos el tiempo de procesamiento de documentos en un 85% para una firma legal, permitiéndoles analizar los términos del contrato de manera más eficiente."
+    },
+    "sentimentAnalysis": {
+      "title": "Herramienta de Análisis de Sentimiento",
+      "description": "Una herramienta de análisis de sentimiento en tiempo real para redes sociales y comentarios de clientes.",
+      "fullDescription": "Esta herramienta monitorea plataformas de redes sociales y canales de retroalimentación de clientes para proporcionar análisis de sentimiento en tiempo real. Las características incluyen detección de tendencias, sistemas de alerta para picos de sentimiento negativo e informes detallados.",
+      "challenge": "Detectar con precisión el sentimiento a través de diferentes contextos, idiomas y estilos de comunicación.",
+      "solution": "Implementamos un enfoque multi-modelo con ajuste fino específico del dominio y conciencia del contexto para mejorar la precisión.",
+      "results": "Ayudamos a un cliente de hostelería a mejorar sus puntuaciones de satisfacción del cliente en un 15% al identificar y abordar rápidamente patrones de retroalimentación negativa."
+    },
+    "recommendationEngine": {
+      "title": "Motor de Recomendación con IA",
+      "description": "Un sistema de recomendación sofisticado para plataformas de comercio electrónico y contenido.",
+      "fullDescription": "Este motor de recomendación utiliza filtrado colaborativo, análisis basado en contenido e información contextual para entregar recomendaciones de productos o contenido altamente relevantes. El sistema aprende continuamente de las interacciones de los usuarios para mejorar las sugerencias.",
+      "challenge": "Equilibrar la relevancia de las recomendaciones con la necesidad de presentar a los usuarios nuevos elementos y evitar burbujas de recomendación.",
+      "solution": "Desarrollamos un algoritmo de recomendación híbrido que incorpora componentes de exploración junto con sugerencias personalizadas.",
+      "results": "Aumentamos las tasas de conversión en un 22% y el valor promedio de pedido en un 15% para un cliente de comercio electrónico."
+    }
+  },
+  "experience": {
+    "title": "Trayectoria Profesional",
+    "description": "Una cronología de mi progresión profesional y roles clave en el ámbito de la tecnología y la IA.",
+    "seniorAiEngineer": {
+      "title": "Ingeniero Senior de IA",
+      "company": "TechFusion AI",
+      "period": "2021 - Presente",
+      "description": "Lidero el desarrollo de soluciones de IA para clientes empresariales. Diseño e implemento modelos personalizados de machine learning y sistemas de procesamiento de lenguaje natural."
+    },
+    "mlSpecialist": {
+      "title": "Especialista en Machine Learning",
+      "company": "DataVision Inc.",
+      "period": "2018 - 2021",
+      "description": "Desarrollé soluciones de análisis predictivo y sistemas de recomendación. Trabajé con grandes conjuntos de datos para entrenar y optimizar modelos de machine learning."
+    },
+    "fullStackDeveloper": {
+      "title": "Desarrollador Full-Stack",
+      "company": "WebSphere Solutions",
+      "period": "2016 - 2018",
+      "description": "Construí aplicaciones web responsivas y APIs RESTful. Implementé interfaces front-end y sistemas back-end para varios proyectos de clientes."
+    },
+    "softwareIntern": {
+      "title": "Becario de Ingeniería de Software",
+      "company": "InnoTech Labs",
+      "period": "2015 - 2016",
+      "description": "Asistí en el desarrollo de aplicaciones móviles y servicios web. Adquirí experiencia en metodologías de desarrollo ágil y pruebas de software."
+    }
+  },
+  "pricing": {
+    "title": "Planes de Inversión",
+    "description": "Opciones de precios transparentes diseñadas para adaptarse a diferentes alcances y requisitos de proyectos.",
+    "getStarted": "Comenzar",
+    "basic": {
+      "title": "Básico",
+      "description": "Perfecto para pequeños proyectos y startups",
+      "features": {
+        "design": "Diseño de solución de IA personalizada",
+        "implementation": "Implementación básica",
+        "support": "1 mes de soporte",
+        "documentation": "Documentación",
+        "revisions": "1 ronda de revisiones"
+      }
+    },
+    "professional": {
+      "title": "Profesional",
+      "description": "Ideal para negocios en crecimiento",
+      "features": {
+        "design": "Diseño avanzado de solución de IA",
+        "implementation": "Implementación completa",
+        "support": "3 meses de soporte",
+        "documentation": "Documentación completa",
+        "revisions": "3 rondas de revisiones",
+        "optimization": "Optimización de rendimiento",
+        "training": "Sesión básica de capacitación"
+      }
+    },
+    "enterprise": {
+      "title": "Empresarial",
+      "description": "Para necesidades empresariales complejas",
+      "features": {
+        "design": "Solución de IA de nivel empresarial",
+        "implementation": "Implementación completa",
+        "support": "6 meses de soporte",
+        "documentation": "Documentación extensa",
+        "revisions": "Revisiones ilimitadas",
+        "optimization": "Optimización avanzada de rendimiento",
+        "training": "Múltiples sesiones de capacitación",
+        "contact": "Contacto de soporte dedicado",
+        "integrations": "Integraciones personalizadas"
+      }
+    }
+  },
+  "reviews": {
+    "title": "Opiniones de Clientes",
+    "description": "Escucha lo que los clientes tienen que decir sobre su experiencia trabajando conmigo.",
+    "sarahJohnson": {
+      "name": "Sarah Johnson",
+      "company": "TechStart Inc.",
+      "review": "Trabajar con este freelancer fue un placer absoluto. Entregaron nuestra solución de IA antes de lo programado y superaron nuestras expectativas en términos de funcionalidad y rendimiento."
+    },
+    "michaelChen": {
+      "name": "Michael Chen",
+      "company": "DataFlow Systems",
+      "review": "El motor de recomendación personalizado que construyeron para nuestra plataforma de comercio electrónico aumentó nuestras tasas de conversión en un 35%. Su experiencia en IA y machine learning es realmente impresionante."
+    },
+    "emilyRodriguez": {
+      "name": "Emily Rodriguez",
+      "company": "InnovateCorp",
+      "review": "Su capacidad para traducir conceptos técnicos complejos en soluciones empresariales prácticas es notable. El panel de análisis predictivo que crearon se ha convertido en una herramienta esencial para nuestro proceso de toma de decisiones."
+    },
+    "davidKim": {
+      "name": "David Kim",
+      "company": "NextGen Retail",
+      "review": "Hemos trabajado con muchos desarrolladores, pero ninguno ha igualado la combinación de habilidad técnica y comprensión empresarial que este freelancer aporta a la mesa. ¡Altamente recomendado!"
+    }
+  },
+  "contact": {
+    "title": "Trabajemos Juntos",
+    "description": "¿Tienes un proyecto en mente? Comunícate a través de cualquiera de estos canales y te responderé con prontitud.",
+    "email": "Correo Electrónico",
+    "discord": "Discord"
+  },
+  "language": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "select": "Seleccionar idioma"
+  }
+}
